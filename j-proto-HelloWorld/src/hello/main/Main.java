@@ -9,6 +9,10 @@ public class Main {
 		System.out.println("fresh!!");
 		System.out.println("another line");
 		System.out.println("press any key to continue...");
+		
+		A a = new A();
+		a.print();
+		
 		try {
 			System.in.read();
 		} catch (IOException e) {
